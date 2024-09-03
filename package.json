@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "i": "^0.3.7"
+  },
+  "name": "final-code-kishan1.0",
+  "version": "1.0.0",
+  "description": "this is the my first project",
+  "main": "login.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KISHU_VAGHELA",
+  "license": "ISC"
+}

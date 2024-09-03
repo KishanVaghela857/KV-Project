@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#main-holder {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
+#login-error-msg {
+    background-color: #e73f39;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    opacity: 0%;
+    transition: 0.5s;
+
+}
+
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-field {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.login-form-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#login-form-submit {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-form-submit:hover {
+    background-color: #0056b3;
+}
+
+#login-form-submit:focus {
+    background-color: #0056b3;
+
+}
+
+#upget {
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+#upget:hover {
+    background-color: rgb(179, 179, 179);
+    color: black;
+    font-weight: bold;
+}
+#upget:focus{
+    background-color: rgb(179, 179, 179);
+    color: black;
+    font-weight: bold;
+}
+
+#usepass {
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: #7a848f;
+    border-radius: 4px;
+    opacity: 0%;
+}
+
+#spanX {
+    text-align: end;
+    justify-content: end;
+    display: flex;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.up {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+#usepass .para{
+    text-align: left;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+#login-para {
+    margin-top: -80px;
+}
+
