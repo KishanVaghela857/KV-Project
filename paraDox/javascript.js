@@ -14,6 +14,6 @@ document.querySelector('#shareBtn').addEventListener('click', () => {
     }
 });
 
-document.getElementById("home").addEventListener("click" , () => {
+document.getElementById("home").addEventListener("click", () => {
     location.reload();
 });
