@@ -343,7 +343,8 @@ footer {
     }
 
     .center-img img {
-        margin-right: -180px;
+
+        margin-left: 1%;
     }
 
     .heading h1 {
