@@ -1,6 +1,7 @@
 let loginForm = document.getElementById("login-form");
 let loginButton = document.getElementById("login-form-submit");
 let loginErrorMsg = document.getElementById("login-error-msg");
+let loginMsg = document.getElementById("login-msg-holder");
 let mainHolder = document.getElementById("main-holder")
 
 loginButton.addEventListener("click", (e) => {
@@ -8,14 +9,25 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "paraDox" && password === "paraDox0420") {
-        alert("you have successfully logged in.");
-        location.replace("paraDox/Fpage.html");
+    if (username === "Admin" && password === "admin123") {
+        loginMsg.style.opacity = "100%"
+        loginMsg.style.marginTop = "15px"
+        setTimeout(function() {
+            
+            location.replace("paraDox/Fpage.html");
+        }, 1500);
+
+
     } else {
         loginErrorMsg.style.height = "40px";
         loginErrorMsg.style.opacity = "100%";
-    };
+        setTimeout(function error(){
+            loginErrorMsg.style.opacity = "0%";
+
+        }, 1000)
+    }
 });
+            
 
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("login-form");
