@@ -228,10 +228,10 @@ nav ul li a:hover {
 
 .heading-video h1 {
     font-size: 25px;
-    color: #000000;
+    color: #ffffff;
     font-family: sans-serif;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #6846ff;
     border: 2px solid black ;
     padding: 5px 0px;
     margin-top: -30px;
@@ -355,8 +355,12 @@ footer {
         font-size: 30px;
     }
     .heading-video h1 {
-        display: flex;
+        display: inline-flex;
         text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 5px 10px;
+
     }
 }
 
@@ -403,7 +407,10 @@ footer {
         padding: 15px 0;
     }
     .heading-video h1 {
-        display: flex;
+        display: inline-flex;
         text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 5px 10px;
     }
 }
