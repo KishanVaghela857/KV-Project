@@ -43,6 +43,20 @@ body {
 
 }
 
+#login-msg-holder {
+    color: rgb(0, 82, 0);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px green;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    background-color: rgb(139, 245, 139);
+    opacity: 0%;
+}
+
+
 
 #login-form {
     display: flex;
